@@ -205,3 +205,162 @@ Climate-Intelligence/
 │
 ├── pracs.py
 └── README.md
+````
+
+---
+
+## 💻 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Climate-Intelligence
+```
+
+### 3. Install the required libraries
+
+```bash
+pip install streamlit pandas numpy plotly
+```
+
+---
+
+## ▶️ Running the Application
+
+Run the Streamlit application using:
+
+```bash
+python -m streamlit run pracs.py
+```
+
+The application will open in your browser at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🖥️ System Workflow
+
+```text
+User
+  │
+  ▼
+Select Monitoring Location
+  │
+  ▼
+Environmental Data
+(Temperature, Humidity, Wind)
+  │
+  ▼
+Risk Calculation Engine
+  │
+  ▼
+Heat Index + Risk Score
+  │
+  ▼
+Risk Classification
+  │
+  ├── LOW
+  ├── MODERATE
+  ├── HIGH
+  └── EXTREME
+  │
+  ▼
+Dashboard Visualization
+  │
+  ▼
+Early Warning / Alert
+```
+
+---
+
+## 📊 Dashboard Modules
+
+```text
+Climate Intelligence
+│
+├── Command Center
+├── Predictive Analytics
+├── Historical Intelligence
+├── Climate Risk Map
+├── Explainable AI
+├── What-If Simulator
+└── Alert Center
+```
+
+---
+
+## ⚠️ Current Prototype Limitations
+
+The current implementation is a functional prototype.
+
+* Climate data used in the dashboard is simulated/sample data.
+* The current risk engine is rule-based.
+* No live weather API is currently connected.
+* No trained machine learning model is currently integrated.
+* Alerts are demonstrated within the dashboard and are not connected to external SMS/email services.
+* Forecast values are generated for demonstration purposes.
+
+---
+
+## 🚀 Future Scope
+
+The system can be further enhanced by integrating:
+
+* Real-time weather APIs
+* Historical government/weather datasets
+* Machine learning-based heatwave prediction
+* More advanced forecasting models
+* Real-time location-based monitoring
+* SMS and email alerts
+* Mobile application support
+* IoT-based temperature and humidity sensors
+* Population vulnerability analysis
+* Automated emergency response recommendations
+
+---
+
+## 🎓 Academic Context
+
+This project was developed as part of an **Object-Oriented Software Engineering (OOSE)** functional requirement demonstration.
+
+### Functional Requirement
+
+**Heatwave Prediction and Early Warning**
+
+### Main Actor
+
+**User**
+
+### Main Objective
+
+To analyze environmental conditions, determine heatwave risk, and provide an early warning when high-risk conditions are detected.
+
+---
+
+## 👩‍💻 Project Information
+
+**Project:** Climate Intelligence for Heatwave Monitoring, Prediction, and Early Warning System
+
+**Technology:** Python + Streamlit
+
+**Domain:** Climate Intelligence / Environmental Monitoring
+
+**Type:** Functional Prototype
+
+**Academic Area:** Object-Oriented Software Engineering (OOSE)
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
+
